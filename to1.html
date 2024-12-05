@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sở thú tổ 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+        .rainbow-text {
+            font-size: 24px;
+            font-weight: bold;
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            display: block;
+            margin: 20px 0;
+        }
+        .moving-text {
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            text-align: center;
+        }
+        .moving-text span {
+            display: inline-block;
+            animation: moveText 10s linear infinite;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        @keyframes moveText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        @media screen and (max-width: 768px) {
+            th, td {
+                font-size: 12px;
+            }
+            img {
+                max-width: 70px;
+            }
+            .rainbow-text {
+                font-size: 20px;
+            }
+            .moving-text span {
+                font-size: 20px;
+            }
+        }
+        @media screen and (min-width: 769px) {
+            table {
+                width: 75%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="moving-text">
+        <span class="rainbow-text">Sở thú tổ 1-12A7 (K61-LĐB)</span>
+    </div>
+    <table>
+        <tr bgcolor="cyan">
+            <th>Họ và Tên</th>
+            <th>Ngày Sinh</th>
+            <th>Giới Thiệu</th>
+            <th>Sở Thích</th>
+            <th>Ảnh (dìm)</th>
+        </tr>
+        <tr>
+            <td>Tào Tuấn Anh &#128008;</td>
+            <td>09/04/2007</td>
+            <td>Đẹp trai hài hước</td>
+            <td>Ngủ, chơi với mèo(QN)</td>
+            <td><img src="https://scontent.fhph1-1.fna.fbcdn.net/v/t39.30808-6/469287521_589529297063151_7890366870685367421_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=a3SSP1gMW6QQ7kNvgHXl_Hx&_nc_zt=23&_nc_ht=scontent.fhph1-1.fna&_nc_gid=A11zfLZ4cpdrz-RULgDbrtb&oh=00_AYBTsJgqdQRyT2Gw7LqHnbt3FLtr8Ksn51QJsaRxfyoPUQ&oe=67574172" alt="Ảnh Tào Tuấn Anh"></td>
+        </tr>
+        <tr>
+            <td>Nguyễn Trọng Hòa</td>
+            <td>17/08/2007</td>
+            <td>Hòa đồng vui vẻ</td>
+            <td>Giúp đỡ bạn bè</td>
+            <td><img src="https://scontent.fhph1-1.fna.fbcdn.net/v/t39.30808-6/469249617_589529210396493_6290615420012204495_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ALD3NvjlS20Q7kNvgEhu95X&_nc_zt=23&_nc_ht=scontent.fhph1-1.fna&_nc_gid=AcAfW1QFj2QwYD6ZMJX69jE&oh=00_AYARenm-3Mu5durrwbuXElh0eZOGsK7AUvtN4En7R6rtEg&oe=67576F9B" alt="Ảnh Nguyễn Trọng Hòa"></td>
+        </tr>
+        <tr>
+            <td>Lê Thị Thúy</td>
+            <td>12/03/2007</td>
+            <td>Hướng nội ngại tiết lộ</td>
+            <td>Nghe nhạc(nhạc Bolero)</td>
+            <td><img src="https://scontent.fhph1-1.fna.fbcdn.net/v/t39.30808-6/469386316_589529347063146_4026003013424366030_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=spZ60_Ec5twQ7kNvgHCGmX6&_nc_zt=23&_nc_ht=scontent.fhph1-1.fna&_nc_gid=AiHIYdxRwxHk8rcKFdOt9Ow&oh=00_AYDrZTC4SsYxKcAcszoYUgB_bcpGR4FkcB1f76CogCp3DA&oe=67573C86" alt="Ảnh Lê Thị Thúy"></td>
+        </tr>
+        <tr>
+            <td>Nguyễn Huy Khánh Toàn &#129454;</td>
+            <td>02/09/2007</td>
+            <td>Lớp trưởng mà ngu</td>
+            <td>Hát, bóng chuyền</td>
+            <td><img src="https://scontent.fhph1-1.fna.fbcdn.net/v/t39.30808-6/469200158_589529370396477_7993505790992824398_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=4dT5dK__SPIQ7kNvgGX1Mhk&_nc_zt=23&_nc_ht=scontent.fhph1-1.fna&_nc_gid=Aj3J5uDWTIS_A05fp_XKSSB&oh=00_AYAWFwuyB-bsZ5lzU58NLv1-UWdU4M-tvhKbIGNkRmvJGg&oe=6757633A" alt="Ảnh Nguyễn Huy Khánh Toàn"></td>
+        </tr>
+        <tr>
+            <td>Lê Thị Trang</td>
+            <td>23/11/2007</td>
+            <td>Mặt tròn lắm nọng, hơi hướng ngoại</td>
+            <td>Thích gián và nghe nhạc Chi Dân</td>
+            <td><img src="https://scontent.fhph1-1.fna.fbcdn.net/v/t39.30808-6/469345578_589529407063140_1855650661299796542_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jJxRoN9F6oAQ7kNvgFXfAhZ&_nc_zt=23&_nc_ht=scontent.fhph1-1.fna&_nc_gid=AOTJMpp08OJ3BhLCdPxoNZD&oh=00_AYAZcF7CGOUY7CzYgawZrTgmmzYyXI0PTv7RqS6MEo3_jQ&oe=67576C53" alt="Ảnh Lê Thị Trang"></td>
+        </tr>
+        <tr>
+            <td>Lê Xuân Thịnh &#128055</td>
+            <td>12/12/2007</td>
+            <td>Ăn lắm ỉa nhiều</td>
+            <td>Chưa có thông tin</td>
+            <td><img src="thinh.jpg" alt="Ảnh Lê Xuân Thịnh"></td>
+        </tr>
+        <tr>
+            <td>Nguyễn Khánh Trường</td>
+            <td>08/02/2007</td>
+            <td>Top 1 Hóa sever LĐB</td>
+            <td>Thích trêu bạn bè &#128077;</td>
+            <td><img src="truong.jpg" alt="Ảnh Nguyễn Khánh Trường"></td>
+        </tr>
+        <tr>
+            <td>Nguyễn Thị Phương</td>
+            <td>27/10/2007</td>
+            <td>Học giỏi nhưng hơi đần</td>
+            <td>Nó bảo là thích đủ thứ trên đời</td>
+            <td><img src="https://scontent.fhph1-3.fna.fbcdn.net/v/t39.30808-6/469334934_589529223729825_5906602037384348032_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=w9MP2tgL64oQ7kNvgGGVsDL&_nc_zt=23&_nc_ht=scontent.fhph1-3.fna&_nc_gid=Ameic8TsGOq-4rKwWhj2RI4&oh=00_AYCXrLcjKfhE7mqTDboh_-h6YGS22tbO0v4xcH7phSYdPA&oe=675749AC" alt="Ảnh Nguyễn Thị Phương"></td>
+        </tr>
+        <tr>
+            <td>Nguyễn Văn Đức</td>
+            <td>07/02/2007</td>
+            <td>Con người đam mê hóa học</td>
+            <td>Thích trồng cây &#127793;</td>
+            <td><img src="duc.jpg" alt="Ảnh Nguyễn Văn Đức"></td>
+        </tr>
+    </table>
+</body>
+</html>
